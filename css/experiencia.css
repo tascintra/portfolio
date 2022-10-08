@@ -26,11 +26,11 @@
 }
 
 .empresa::before {
-  content: "";
+  content: '';
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#36AFF5, #2763DB);
+  background: linear-gradient(#36aff5, #2763db);
   position: absolute;
   top: 20px;
   left: -4px;
@@ -43,7 +43,7 @@
   top: 23px;
   left: -100px;
   color: #525252;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .empresa-titulo {
@@ -53,7 +53,7 @@
 }
 
 .empresa-texto {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
@@ -66,9 +66,42 @@
 }
 
 .empresa-habilidades li {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 5px;
   background-color: #fff;
   padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .empresa-ano::before {
+    content: "Ano: ";
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
 }
