@@ -55,3 +55,17 @@
   color: #525252;
 }
 
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.empresa-habilidades li {
+  font-size: .875rem;
+  line-height: 1.4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
