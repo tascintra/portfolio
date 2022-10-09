@@ -110,6 +110,14 @@
 @media (max-width: 800px) {
   .formacao .container {
     grid-template-columns: 1fr;
-    
+    gap: 40px;
+  }
+
+  .formacao .subtitulo {
+    color: #fff;
+  }
+
+  .formacao-extra h3::before {
+    display: none;
   }
 }
