@@ -74,13 +74,20 @@
   position: relative;
 }
 
-.cursos h3::before {
+.formacao-extra h3::before {
   display: block;
   content: "";
   width: 24px;
   height: 24px;
-  background: url("../img/cursos.svg") no-repeat center center;
   position: absolute;
   left: -36px;
   top: -4px;
+}
+
+.cursos h3::before {
+  background: url("../img/cursos.svg") no-repeat center center;
+}
+
+.idiomas h3::before {
+  background: url("../img/idiomas.svg") no-repeat center center;
 }
