@@ -1,3 +1,16 @@
 .formacao {
-  
+  background: #141414;
+  color: #fff;
+}
+
+.formacao .subtitulo {
+  color: #000;
+}
+
+.formacao .container-texto-principal {
+  color: #a3a3a3;
+}
+
+.formacao .container-texto-principal strong {
+  color: #fff;
 }
