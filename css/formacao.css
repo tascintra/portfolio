@@ -106,3 +106,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 800px) {
+  .formacao .container {
+    grid-template-columns: 1fr;
+    
+  }
+}
