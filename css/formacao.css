@@ -65,6 +65,22 @@
   margin-bottom: 60px;
 }
 
-.formacao-extra {
-  
+.formacao-extra h3 {
+  font-size: .875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.cursos h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../img/cursos.svg") no-repeat center center;
+  position: absolute;
+  left: -36px;
+  top: -4px;
 }
