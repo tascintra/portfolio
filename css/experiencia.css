@@ -36,7 +36,7 @@
   left: -4px;
 }
 
-.projeto-ano {
+.projeto-data {
   text-align: right;
   position: absolute;
   width: 80px;
@@ -87,7 +87,7 @@
     font-size: 1.25rem;
   }
 
-  .projeto-ano {
+  .projeto-data {
     position: initial;
     order: 1;
     width: initial;
@@ -95,7 +95,7 @@
     font-weight: bold;
   }
 
-  .projeto-ano::before {
+  .projeto-data::before {
     content: "Ano: ";
   }
 }
