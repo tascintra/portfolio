@@ -14,7 +14,7 @@
   color: #141414;
 }
 
-.empresa {
+.projeto {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
@@ -25,7 +25,7 @@
   position: relative;
 }
 
-.empresa::before {
+.projeto::before {
   content: '';
   display: block;
   width: 4px;
@@ -36,7 +36,7 @@
   left: -4px;
 }
 
-.empresa-ano {
+.projeto-ano {
   text-align: right;
   position: absolute;
   width: 80px;
@@ -46,26 +46,26 @@
   font-size: 0.875rem;
 }
 
-.empresa-titulo {
+.projeto-titulo {
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
 }
 
-.empresa-texto {
+.projeto-texto {
   font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
 
-.empresa-habilidades {
+.projeto-habilidades {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-content: flex-start;
 }
 
-.empresa-habilidades li {
+.projeto-habilidades li {
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 5px;
@@ -87,7 +87,7 @@
     font-size: 1.25rem;
   }
 
-  .empresa-ano {
+  .projeto-ano {
     position: initial;
     order: 1;
     width: initial;
@@ -95,13 +95,13 @@
     font-weight: bold;
   }
 
-  .empresa-ano::before {
+  .projeto-ano::before {
     content: "Ano: ";
   }
 }
 
 @media (max-width: 400px) {
-  .empresa {
+  .projeto {
     grid-template-columns: 1fr;
   }
 }
