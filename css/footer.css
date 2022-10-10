@@ -1,0 +1,13 @@
+.footer {
+  background: #000;
+
+}
+
+.footer-container {
+  padding-bottom: 60px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-texto {
+  color: #ccc;
+}
