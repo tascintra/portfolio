@@ -19,6 +19,7 @@
 
 .formacao .subtitulo {
   color: #000;
+  max-width: 5ch;
 }
 
 .formacao .container-texto-principal {
