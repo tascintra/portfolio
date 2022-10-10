@@ -107,6 +107,11 @@
   justify-content: space-between;
 }
 
+.curso-link:hover {
+  color: #525252;
+  font-weight: bold;
+}
+
 @media (max-width: 800px) {
   .formacao .container {
     grid-template-columns: 1fr;
