@@ -26,3 +26,19 @@
   font-size: 1.125rem;
   color: #8f8f8f;
 }
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-texto {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}
